@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    animation: animation-nav 2s infinite;
+
+}@keyframes animation-nav{
+0%{background-color: gray;}
+50%{background-color: white;}
+100%{background-color: gray;}
+}
+
+.judul1{
+    text-align: center;
+}.judul1:hover{
+    color: gray;
+}
+
+.gambar1{
+    background-color: gray;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}.gambar1:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+
+.text1{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.gambar2{
+    background-color: gray;
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}.gambar2:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+
+.judul2{
+    position: absolute;
+    left: 40%;
+    top: 105%;
+}.judul2:hover{
+    color: gray;
+}
+
+
+.text2{
+    position: absolute;
+    text-align: center;
+    top: 170%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    top: 205%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    animation: animation-nav 2s infinite;
+    margin-bottom: 5px;
+}
+.content-box {
+    box-sizing: content-box;
+}
