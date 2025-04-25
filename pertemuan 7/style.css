@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 100px;
+}
+
+li{
+    display: inline;
+
+}
+
+li a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.banner{
+    background-color: gray;
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.kotak1,
+.kotak2,
+.kotak3,
+.kotak4,
+.kotak5,
+.kotak6,
+.kotak7,
+.kotak8,
+.kotak9,
+.kotak10{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.kotak1:hover,
+.kotak2:hover,
+.kotak3:hover,
+.kotak4:hover,
+.kotak5:hover,
+.kotak6:hover,
+.kotak7:hover,
+.kotak8:hover,
+.kotak9:hover,
+.kotak10:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    background-color: aqua;
+}
+
+
+@media (max-width: 800px) {
+    .banner,
+    .kotak1,
+    .kotak2,
+    .kotak3,
+    .kotak4,
+    .kotak5,
+    .kotak6,
+    .kotak7,
+    .kotak8,
+    .kotak9,
+    .kotak10,
+    .navbar{
+        background-color: rgb(255, 0, 0);
+        animation: warna 2s infinite;
+    }
+}
+
+@keyframes warna {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+}
+}
